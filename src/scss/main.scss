@@ -397,9 +397,7 @@ body{
   }
 }
 .urun-katlari{
-  position: absolute;
-  z-index: 1;
-  top: 350px;
+  padding: 30px 0px;
   .kat{
     border: 1px solid $base-color;
     position: relative;
@@ -471,11 +469,10 @@ body{
   }
   #firmalar{
     .firma-item{
-      max-width: 100%;
+
     }
   }
   .owl-carousel{
-    margin-top: 170px;
   }
   .slider-item{
     background: $base-color;
