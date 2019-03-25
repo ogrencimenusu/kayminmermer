@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'AkzidenzGroteskLight';
+    src: url('AkzidenzGrotesk-LightCon.woff2') format('woff2'),
+    url('AkzidenzGrotesk-LightCon.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AkzidenzGroteskCondensed';
+    src: url('AkzidenzGrotesk-Condensed.woff2') format('woff2'),
+    url('AkzidenzGrotesk-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

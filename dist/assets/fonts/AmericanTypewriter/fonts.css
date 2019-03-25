@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'AmericanTypewriterBold';
+    src: url('AmericanTypewriter-Bold.woff2') format('woff2'),
+    url('AmericanTypewriter-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AmericanTypewriterLight';
+    src: url('AmericanTypewriter-Light.woff2') format('woff2'),
+    url('AmericanTypewriter-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AmericanTypewriterCondensedLight';
+    src: url('AmericanTypewriter-CondensedLight.woff2') format('woff2'),
+    url('AmericanTypewriter-CondensedLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AmericaTypewriterCondensed';
+    src: url('AmericanTypewriter-Condensed.woff2') format('woff2'),
+    url('AmericanTypewriter-Condensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AmericanTypewriter';
+    src: url('AmericanTypewriter.woff2') format('woff2'),
+    url('AmericanTypewriter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AmericanTypewriterCondensedBold';
+    src: url('AmericanTypewriter-CondensedBold.woff2') format('woff2'),
+    url('AmericanTypewriter-CondensedBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

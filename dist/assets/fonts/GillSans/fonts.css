@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'GillSansLight';
+    src: url('GillSans-Light.woff2') format('woff2'),
+    url('GillSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GillSans';
+    src: url('GillSans.woff2') format('woff2'),
+    url('GillSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

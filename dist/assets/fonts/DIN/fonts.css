@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'DinMedium';
+    src: url('DINMediumTr.woff2') format('woff2'),
+    url('DINMediumTr.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DinLight';
+    src: url('DINTLightTr.woff2') format('woff2'),
+    url('DINTLightTr.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DinLightRegular';
+    src: url('DINLight.woff2') format('woff2'),
+    url('DINLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
