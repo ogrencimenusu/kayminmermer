@@ -61,6 +61,10 @@ body{
     border-bottom: transparent;
   }
   .ust{
+    a{
+      color: #333333;
+      text-decoration: none;
+    }
     img{
       width: 17px;
       float: left;
@@ -180,6 +184,7 @@ body{
     text-align: justify;
     font-size: 15px;
     margin-bottom: 25px;
+    width: 100%;
   }
 }
 .urunOlculeri{
@@ -399,13 +404,14 @@ body{
   h3{
     display: inline-block;
     padding: 15px 10px;
-    color: #000;
+    color: #fff;
     font-size: 22px;
-    background: rgba(255,255,255,.77);
+    background: rgba($base-color,.77);
     position: absolute;
     left: 20%;
+    margin-bottom: 0;
     right: 20%;
-    top: 60px;
+    top: calc(50% - 56px);
   }
 }
 .urun-katlari{
@@ -480,6 +486,13 @@ body{
     display: none;
   }
   #firmalar{
+    .banners-wrap{
+      .main-title{
+        margin-top: 0;
+        font-size: 29px;
+        text-align: center;
+      }
+    }
     .firma-item{
 
     }
@@ -570,6 +583,12 @@ body{
 
     .adres{
       margin-top: 50px;
+      a{
+        color: #333;
+        &:hover{
+          color: $base-color;
+        }
+      }
       .title{
         font-size: 19px;
       }
@@ -617,6 +636,10 @@ body{
     margin-bottom: 0;
   }
   .ust{
+    a{
+      color: #333;
+      text-decoration: none;
+    }
     img{
       width: 17px;
       float: left;
