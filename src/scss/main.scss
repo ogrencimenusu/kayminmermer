@@ -448,6 +448,7 @@ body{
 .mainHaberler{
   margin-bottom: 25px;
   .haber-item{
+    padding-bottom: 20px;
     @include transition(all 100ms);
     text-align: justify;
     opacity: .9;
@@ -476,8 +477,11 @@ body{
     .haber-text{
       font-size: 14px;
       color: #333333;
+
     }
     button{
+      position: absolute;
+      bottom: 0;
       border: 1px solid $base-color;
       @include border-radius(0px);
       font-size: 13px;
@@ -861,6 +865,9 @@ body{
         max-height: 68px;
         overflow: hidden;
       }
+      button{
+        position: relative;
+      }
       margin-bottom: 30px;
     }
   }
@@ -936,6 +943,11 @@ body{
   #footer{
     .nav-footer{
       display: none;
+    }
+    #partners{
+      a{
+        color: #333333;
+      }
     }
   }
 }
